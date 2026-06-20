@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero" format="2">
+  <advance width="1233"/>
+  <unicode hex="0030"/>
+  <outline>
+    <contour>
+      <point x="616" y="1360" type="qcurve" smooth="yes"/>
+      <point x="475" y="1360"/>
+      <point x="336" y="1056"/>
+      <point x="336" y="745" type="qcurve" smooth="yes"/>
+      <point x="336" y="435"/>
+      <point x="475" y="131"/>
+      <point x="616" y="131" type="qcurve" smooth="yes"/>
+      <point x="758" y="131"/>
+      <point x="897" y="435"/>
+      <point x="897" y="745" type="qcurve" smooth="yes"/>
+      <point x="897" y="1056"/>
+      <point x="758" y="1360"/>
+    </contour>
+    <contour>
+      <point x="616" y="1520" type="qcurve" smooth="yes"/>
+      <point x="855" y="1520"/>
+      <point x="1100" y="1128"/>
+      <point x="1100" y="745" type="qcurve" smooth="yes"/>
+      <point x="1100" y="363"/>
+      <point x="855" y="-29"/>
+      <point x="616" y="-29" type="qcurve" smooth="yes"/>
+      <point x="377" y="-29"/>
+      <point x="133" y="363"/>
+      <point x="133" y="745" type="qcurve" smooth="yes"/>
+      <point x="133" y="1128"/>
+      <point x="377" y="1520"/>
+    </contour>
+    <!-- Slash -->
+    <contour>
+      <!-- Actual Left bar:  f(x) = (743*x - 40551)/466 -->
+      <!-- Rounded Left bar: f(x) = 1.6x - 87 -->
+      <!-- Upper Left -->
+      <point x="355" y="479" type="line"/>
+      <!-- Upper Right -->
+      <point x="821" y="1222" type="line"/>
+
+      <!-- Actual Right bar:  g(x) = (745*x - 157849)/476 -->
+      <!-- Rounded Right bar: g(x) = 1.6x - 331 -->
+      <!-- Lower Right -->
+      <point x="877" y="1041" type="line"/>
+      <!-- Lower Right -->
+      <point x="401" y="296" type="line"/>
+    </contour>
+  </outline>
+</glyph>
