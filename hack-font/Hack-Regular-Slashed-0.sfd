@@ -1,0 +1,90 @@
+SplineFontDB: 3.2
+FontName: Hack-Regular
+FullName: Hack Regular
+FamilyName: Hack
+Weight: Book
+Copyright: Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 679 -440040060 6512497]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1781986947
+ModificationTime: 1781986968
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 22 22 11
+BeginChars: 256 1
+
+StartChar: zero
+Encoding: 48 48 0
+Width: 1000
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+616 -29 m 256
+NamedP: "hr00"
+ 456 -29 336 36 255 167 c 256
+ 174 298 133 491 133 745 c 256
+NamedP: "sh01"
+ 133 1000 174 1193 255 1324 c 256
+ 336 1455 456 1520 616 1520 c 256
+NamedP: "at01"
+ 773 1520 895 1457 978 1324 c 256
+ 1058 1196 1100 1006 1100 745 c 256
+NamedP: "sh04"
+ 1100 484 1058 295 978 167 c 256
+ 896 36 775 -29 616 -29 c 256
+NamedP: "hr00"
+616 131 m 256
+NamedP: "dv01"
+ 713 131 783 184 828 283 c 256
+ 874 384 897 538 897 745 c 256
+NamedP: "sh03"
+ 897 953 874 1107 828 1207 c 256
+ 783 1307 715 1360 616 1360 c 256
+NamedP: "sv01"
+ 522 1360 452 1309 406 1208 c 256
+ 359 1108 336 960 336 745 c 256
+NamedP: "sh05"
+ 336 537 359 383 406 283 c 256
+ 454 179 524 131 616 131 c 256
+NamedP: "dv01"
+203 291 m 257
+ 830 1202 l 257
+ 1030 1203 l 257
+ 403 291 l 257
+ 203 291 l 257
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

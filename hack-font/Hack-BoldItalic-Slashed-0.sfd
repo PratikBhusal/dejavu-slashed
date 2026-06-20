@@ -1,0 +1,111 @@
+SplineFontDB: 3.2
+FontName: Hack-BoldItalic
+FullName: Hack Bold Italic
+FamilyName: Hack
+Weight: Bold
+Copyright: Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 679 -440040060 13609144]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1781987212
+ModificationTime: 1781987223
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 22 22 11
+BeginChars: 256 1
+
+StartChar: zero
+Encoding: 48 48 0
+Width: 1000
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+504 -29 m 256
+NamedP: "hr00"
+ 360 -29 262 13 195 98 c 256
+ 131 181 98 300 98 477 c 256
+NamedP: "sh01"
+ 98 553 104 611 113 675 c 256
+ 124 754 136 814 155 886 c 256
+ 192 1027 242 1150 299 1243 c 256
+ 320 1278 342 1308 361 1329 c 256
+ 383 1355 406 1378 431 1399 c 256
+ 455 1419 481 1437 508 1452 c 256
+ 589 1497 679 1520 786 1520 c 256
+NamedP: "at01"
+ 935 1520 1032 1475 1096 1394 c 256
+ 1163 1310 1195 1186 1195 1023 c 256
+NamedP: "sh02"
+ 1195 899 1177 751 1138 606 c 256
+ 1102 469 1050 341 994 250 c 256
+ 969 209 936 164 899 127 c 256
+ 866 94 826 63 785 40 c 256
+ 704 -6 610 -29 504 -29 c 256
+NamedP: "hr00"
+529 165 m 256
+NamedP: "dv01"
+ 558 165 582 169 607 177 c 256
+ 628 184 655 196 678 212 c 256
+ 721 241 763 291 794 351 c 256
+ 803 368 816 394 829 423 c 256
+ 841 450 851 477 860 502 c 256
+ 873 539 879 556 889 589 c 256
+ 896 610 906 650 914 685 c 256
+ 927 744 933 775 941 816 c 257
+ 956 904 962 980 962 1051 c 256
+NamedP: "ah01"
+ 962 1100 961 1124 954 1160 c 256
+NamedP: "sh05"
+ 953 1167 948 1190 945 1201 c 256
+ 942 1209 936 1228 931 1237 c 256
+ 928 1244 923 1252 914 1264 c 256
+ 884 1305 832 1326 766 1326 c 256
+NamedP: "sv01"
+ 710 1326 658 1310 614 1279 c 256
+ 563 1244 525 1193 497 1142 c 256
+ 450 1058 405 935 376 807 c 256
+ 344 670 329 532 329 433 c 256
+NamedP: "sh06"
+ 329 332 344 269 379 226 c 256
+ 412 185 462 165 529 165 c 256
+NamedP: "dv01"
+267 595 m 257
+ 953 1166 l 257
+ 1073 946 l 257
+ 337 325 l 257
+ 267 595 l 257
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

@@ -1,0 +1,97 @@
+SplineFontDB: 3.2
+FontName: Hack-Italic
+FullName: Hack Italic
+FamilyName: Hack
+Weight: Book
+Copyright: Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 679 -440040060 13894333]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1781987133
+ModificationTime: 1781987146
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 22 22 11
+BeginChars: 256 1
+
+StartChar: zero
+Encoding: 48 48 0
+Width: 1000
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+480 -29 m 256
+NamedP: "hr00"
+ 221 -29 98 137 98 464 c 256
+NamedP: "sh01"
+ 98 729 185 1060 297 1244 c 257
+NamedP: "sh03"
+ 353 1339 416 1406 493 1453 c 256
+ 562 1496 645 1520 749 1520 c 256
+NamedP: "at01"
+ 884 1520 976 1480 1040 1396 c 256
+ 1100 1316 1135 1199 1135 1028 c 256
+NamedP: "sh04"
+ 1135 893 1114 740 1079 608 c 257
+ 1044 471 993 346 936 249 c 256
+NamedP: "sh05"
+ 880 153 817 84 741 39 c 256
+ 669 -4 584 -29 480 -29 c 256
+NamedP: "hr00"
+502 135 m 256
+NamedP: "dv01"
+ 559 135 610 152 655 186 c 256
+ 707 225 743 283 770 334 c 257
+ 814 422 855 548 886 681 c 256
+ 917 818 932 949 932 1057 c 256
+NamedP: "ah01"
+ 932 1274 866 1356 732 1356 c 256
+NamedP: "sv01"
+ 676 1356 623 1339 578 1306 c 256
+ 530 1271 492 1218 461 1158 c 256
+ 416 1070 376 953 345 812 c 256
+ 313 665 299 532 299 429 c 256
+NamedP: "sh02"
+ 299 313 316 247 351 203 c 256
+ 383 162 434 135 502 135 c 256
+NamedP: "dv01"
+114 295 m 257
+ 919 1196 l 257
+ 1119 1196 l 257
+ 311 295 l 257
+ 114 295 l 257
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
