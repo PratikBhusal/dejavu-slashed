@@ -1,0 +1,52 @@
+name: Build and Release Fonts
+
+on:
+  push:
+    branches: [master]
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install build dependencies
+        # fontforge runs scripts/generate.pe; libfont-ttf-perl provides the
+        # Font::TTF module used by scripts/ttpostproc.pl (the apt equivalent of
+        # `cpan Font::TTF`).
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fontforge libfont-ttf-perl make
+
+      - name: Fetch coverage resources
+        # See `BUILDING.md`.
+        run: |
+          wget -P resources \
+              https://www.unicode.org/Public/UNIDATA/UnicodeData.txt \
+              https://www.unicode.org/Public/UNIDATA/Blocks.txt
+          git clone --depth 1 --filter=blob:none --sparse \
+              https://gitlab.freedesktop.org/fontconfig/fontconfig.git /tmp/fontconfig
+          git -C /tmp/fontconfig sparse-checkout set fc-lang
+          ln -s /tmp/fontconfig/fc-lang resources/fc-lang
+
+      - name: Build TTF fonts
+        run: make full-ttf
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: ttf-fonts
+          path: build/*.ttf
+
+      # Tagged push (e.g. v1.0) -> release named after the tag with the TTFs.
+      - name: Release (tag)
+        uses: softprops/action-gh-release@v3
+        if: github.ref_type == 'tag'
+        with:
+          files: build/*.ttf
