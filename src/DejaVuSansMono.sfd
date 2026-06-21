@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1781984702
-ModificationTime: 1781984702
+ModificationTime: 1782008225
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -40,16 +40,17 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0" { "'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0" { "'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1" { "'locl' Localized Forms in Cyrillic lookup 1"  } ['locl' ('cyrl' <'SRB ' > ) ]
+Lookup: 1 0 0 "Single Substitution - Dotless Form" { "Single Substitution - Dotless Form"  } []
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 3" { "'fina' Terminal Forms in Arabic lookup 3"  } ['fina' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 4" { "'medi' Medial Forms in Arabic lookup 4"  } ['medi' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 5" { "'init' Initial Forms in Arabic lookup 5"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 6" { "'rlig' Required Ligatures in Arabic lookup 6"  } ['rlig' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 7" { "'liga' Standard Ligatures in Arabic lookup 7"  } ['liga' ('arab' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10" { "'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution - Dotless Form" { "Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "'zero' Slashed Zero lookup 11" { "'zero' Slashed Zero lookup 11-1"  } ['zero' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms" { "'case' Case-Sensitive Forms" ("case") } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0" { "'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1" { "'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
@@ -61,6 +62,7 @@ Lookup: 260 0 0 "'mark' Mark to Base in Basic" { "'mark' cedilla"  "'mark' above
 Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic" { "'mark' Zero-Width Marks lookup"  } ['mark' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao" { "'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 257 8 0 "'rtbd' Mark width in Lao" { "'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0" 4 1 4 3
   Class: 3 i j
@@ -2302,13 +2304,15 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "" "" "" "DejaVu Sans Mono" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License"
-Encoding: UnicodeFull
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL without afii
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 44 22 11
+WinInfo: 0 22 11
+BeginPrivate: 0
+EndPrivate
 GridOrder2: 1
 Grid
 1 740 m 25,0,-1
@@ -2431,7 +2435,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "cedilla" "'mark' cedilla" "lao-below" "'mark' Mark positioning in Lao" "lao-above" "'mark' Mark positioning in Lao" "above" "'mark' above, below" "below" "'mark' above, below" "rtl-above" "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above" "'mark' Mark Positioning in Arabic lookup 4" "rtl-below" "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below" "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark" "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark" "'mkmk' Mark to Mark in Arabic lookup 0"
-BeginChars: 1114165 3778
+BeginChars: 1114165 3779
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4011,6 +4015,7 @@ SplineSet
  133 1128 133 1128 255 1324 c 128,-1,35
  377 1520 377 1520 616 1520 c 256,24,25
 EndSplineSet
+Substitution2: "'zero' Slashed Zero lookup 11-1" zero.zero
 EndChar
 
 StartChar: one
@@ -108945,6 +108950,36 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 3398 11800 N 1 0 0 1 0 373 3
+EndChar
+
+StartChar: zero.zero
+Encoding: 57344 -1 3778
+Width: 1233
+LayerCount: 2
+Fore
+SplineSet
+616 1515 m 256,0,1
+ 855 1515 855 1515 977.5 1320 c 128,-1,2
+ 1100 1125 1100 1125 1100 743 c 256,3,4
+ 1100 361 1100 361 977.5 166 c 128,-1,5
+ 855 -29 855 -29 616 -29 c 256,6,7
+ 377 -29 377 -29 255 166 c 128,-1,8
+ 133 361 133 361 133 743 c 256,9,10
+ 133 1125 133 1125 255 1320 c 128,-1,11
+ 377 1515 377 1515 616 1515 c 256,0,1
+616 131 m 256,12,13
+ 758 131 758 131 827.5 282 c 128,-1,14
+ 897 433 897 433 897 743 c 256,15,16
+ 897 908 897 908 877 1041 c 257,17,-1
+ 401 296 l 257,18,19
+ 476 131 476 131 616 131 c 256,12,13
+616 1355 m 256,20,21
+ 475 1355 475 1355 405.5 1204 c 128,-1,22
+ 336 1053 336 1053 336 743 c 256,23,24
+ 336 602 336 602 355 479 c 257,25,-1
+ 821 1222 l 257,26,27
+ 745 1355 745 1355 616 1355 c 256,20,21
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

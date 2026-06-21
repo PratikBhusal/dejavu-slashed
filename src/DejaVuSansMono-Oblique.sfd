@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1781984702
-ModificationTime: 1781984702
+ModificationTime: 1782009048
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,8 +43,10 @@ OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0" { "'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0" { "'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3" { "'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'zero' Slashed Zero lookup 4" { "'zero' Slashed Zero lookup 4-1"  } ['zero' ('DFLT' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms" { "'case' Case-Sensitive Forms" ("case") } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao" { "'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -1689,13 +1691,15 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "" "" "" "DejaVu Sans Mono Oblique" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License"
-Encoding: UnicodeFull
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL without afii
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 22 22 11
+WinInfo: 0 22 11
+BeginPrivate: 0
+EndPrivate
 GridOrder2: 1
 Grid
 1 740 m 25,0,-1
@@ -1818,7 +1822,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below" "'mark' Mark positioning in Lao" "lao-above" "'mark' Mark positioning in Lao"
-BeginChars: 1114137 3111
+BeginChars: 1114137 3112
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -3472,6 +3476,7 @@ SplineSet
  299 273 299 273 350.5 204 c 128,-1,47
  402 135 402 135 506 135 c 0,30,31
 EndSplineSet
+Substitution2: "'zero' Slashed Zero lookup 4-1" zero.zero
 EndChar
 
 StartChar: one
@@ -85844,6 +85849,36 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 3034 11800 N 1 0 0 1 0 373 3
+EndChar
+
+StartChar: zero.zero
+Encoding: 57344 -1 3111
+Width: 1233
+LayerCount: 2
+Fore
+SplineSet
+754 1520 m 256,0,1
+ 993 1528 993 1528 1079.5 1335 c 128,-1,2
+ 1166 1142 1166 1142 1097 758 c 256,3,4
+ 1028 373 1028 373 870 173 c 128,-1,5
+ 712 -27 712 -27 473 -34 c 256,6,7
+ 234 -41 234 -41 148 151.5 c 128,-1,8
+ 62 344 62 344 130 728 c 256,9,10
+ 200 1113 200 1113 357.5 1313 c 128,-1,11
+ 515 1513 515 1513 754 1520 c 256,0,1
+502 128 m 256,12,13
+ 644 132 644 132 741 286 c 128,-1,14
+ 838 440 838 440 894 752 c 256,15,16
+ 925 918 925 918 929 1051 c 257,17,-1
+ 317 286 l 257,18,19
+ 362 123 362 123 502 128 c 256,12,13
+725 1358 m 256,20,21
+ 584 1354 584 1354 487 1200 c 128,-1,22
+ 390 1046 390 1046 333 734 c 256,23,24
+ 307 593 307 593 304 469 c 257,25,-1
+ 905 1232 l 257,26,27
+ 854 1363 854 1363 725 1358 c 256,20,21
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
