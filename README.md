@@ -1,11 +1,12 @@
-## DejaVu Sans Mono - Slashed 0
+DejaVu fonts 2.38 (c)2004-2026 DejaVu fonts team
+------------------------------------------------
 
 A fork of [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts) with
 slashed zeros.
 
 ### Available fonts
 
-- DejaVu Sans Mono Slashed
-- DejaVu Sans Mono Slashed Bold
-- DejaVu Sans Mono Slashed Oblique (Italic)
-- DejaVu Sans Mono Slashed Bold Oblique (Bold Italic)
+- DejaVu Sans Mono
+- DejaVu Sans Mono Bold
+- DejaVu Sans Mono Oblique (Italic)
+- DejaVu Sans Mono Bold Oblique (Bold Italic)
