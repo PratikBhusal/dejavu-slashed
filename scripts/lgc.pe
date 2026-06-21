@@ -6,6 +6,11 @@ i = 1
 while ( i < $argc )
   Open($argv[i], 1)
 
+  # These sources use a Custom encoding, so unassigned Unicode slots (e.g.
+  # U+0530) are not addressable and Select() on a range starting there fails.
+  # Reencode to full Unicode so every codepoint slot can be selected.
+  Reencode("UnicodeFull")
+
   Select(0u0530, 0u1cff)        # Armenian through Vedic Extensions
   SelectMore(0u2c00, 0u2c5f)    # Glagolitic
   SelectMore(0u2d00, 0u2ddf)    # Georgian Supplement through Ethiopic Extended
